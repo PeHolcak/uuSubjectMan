@@ -1,0 +1,37 @@
+{
+  "product": "uun_bpmi21wpt04_maing01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "ues:UCL-BT:OPR.RSP/APPBOXES",
+      "uuCloudBaseUri": "https://sys-eu-c-3.plus4u.net",
+      "uuCloudLogStoreBaseUri": "https://cmd-eu-c-3.plus4u.net/118500965363973101/",
+      "appDeploymentUri": "ues:UCL-BT[118500965363973101]:UUN_STUDENTS03_AWE[61797a92a1342b81b8058028]:UUN.BPMI21WPT04.MAING01[61bc7a84a1342baa6d05857f]"
+    }
+  },
+  "uu_subjectman_maing01-hi": {
+    "componentList": [
+      {
+        "code": "UuSubjectman.Routes.SubjectGet",
+        "name": "SubjectGet",
+        "tagList": [
+          "UuSubjectman",
+          "Routes",
+          "SubjectGet"
+        ],
+        "docCode": "UuSubjectmanRoutesSubjectGet",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuSubjectman.Routes.SubjectGet />"
+      }
+    ]
+  },
+  "uu_subjectman_maing01-server": {}
+}

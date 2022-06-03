@@ -1,0 +1,1 @@
+export const getStringValueOrEmptyString = (value) => !value && value!==0 ? "" : typeof value === "string" ? value : value.toString();

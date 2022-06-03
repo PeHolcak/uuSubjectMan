@@ -1,0 +1,58 @@
+{
+  "uuSubApp": {
+    "code": "UUN.BPMI21WPT04.MAING01",
+    "version": "0.1.0",
+    "name": "uunBpmi21wpt04Maing01",
+    "description": "Server project example for developing UAF application",
+    "license": "License Commercial",
+    "asidRequired": true,
+    "awidCount": 1,
+    "resourcePoolUri": "ues:UCL-BT:UUN_STUDENTS03_AWE",
+    "targetSlot": "BETA",
+    "uuAppNodeSetMap": {
+      "CMD": {
+        "nodeSize": "G1_S",
+        "nodeCount": {
+          "min": 1,
+          "max": 1
+        },
+        "appPackUri": "ues:UCL-BT:UUN.BPMI21WPT04.MAING01/APPBOX-0.1.0:UUN.BPMI21WPT04.MAING01/CMD-PACK",
+        "runtimeStack": "UU.APPG01/APPSERVER_NODEJS_STACK-1.6"
+      }
+    },
+    "uuConfigMap": {
+      "asid_license_owner_list": [
+        "579-9339-6687-1",
+        "4148-390-1",
+        "5037-9983-1",
+        "9296-5788-1",
+        "5154-4559-1"
+      ]
+    }
+  },
+  "uuSubAppInstance": {
+    "asid": "f57265030b016fdf8dd8a0b3f518d7ee",
+    "asidOwner": "579-9339-6687-1",
+    "awidList": [
+      {
+        "awid": "87a5282c30ce780381e9ca3daaa6dfb1",
+        "awidOwner": [
+          "4148-390-1",
+          "5037-9983-1",
+          "9296-5788-1",
+          "5154-4559-1",
+          "579-1048-9632-1"
+        ]
+      }
+    ],
+    "uuAppObjectStoreMap": {
+      "OSID_1": {
+        "technology": "MongoDB-4.0",
+        "size": 0.25,
+        "backup": false,
+        "alias": "primary",
+        "osid": "isvjgnrl0ox9iyvfu717l6r5wxgd3zpux"
+      }
+    }
+  }
+}

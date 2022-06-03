@@ -1,0 +1,74 @@
+{
+  "{asid}": {
+    "profileList": ["AsidAuthorities","AsidExecutives","AsidLicenseOwner","Public"],
+    "useCaseMap": {}
+  },
+  "*": {
+    "profileList": ["Authorities","Executives","AwidLicenseOwner","Public","PUBLIC","Update"],
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "sysStateList": ["created"],
+        "profileList": ["AwidLicenseOwner"]
+      },
+      "defaultUve": {
+        "profileList": ["Public"]
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "sysStateList": ["created"],
+        "profileList": ["Public","AwidLicenseOwner"]
+      },
+      "subject/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subject/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subject/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subject/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subject/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "topic/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "topic/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "topic/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "topic/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "topic/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "material/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "material/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "material/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      }
+    }
+  }
+}

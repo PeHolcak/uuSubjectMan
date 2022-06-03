@@ -1,0 +1,86 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "realization": "api/controllers/SubjectmanMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "subject/create": {
+        "realization": "api/controllers/SubjectController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subject/delete": {
+        "realization": "api/controllers/SubjectController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subject/get": {
+        "realization": "api/controllers/SubjectController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "subject/update": {
+        "realization": "api/controllers/SubjectController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subject/list": {
+        "realization": "api/controllers/SubjectController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "topic/create": {
+        "realization": "api/controllers/TopicController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "topic/delete": {
+        "realization": "api/controllers/TopicController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "topic/get": {
+        "realization": "api/controllers/TopicController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "topic/list": {
+        "realization": "api/controllers/TopicController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "topic/update": {
+        "realization": "api/controllers/TopicController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "material/delete": {
+        "realization": "api/controllers/MaterialController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "material/create": {
+        "realization": "api/controllers/MaterialController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "material/list": {
+        "realization": "api/controllers/MaterialController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      }
+    }
+  }
+}
